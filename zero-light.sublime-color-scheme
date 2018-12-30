@@ -1,0 +1,188 @@
+{
+    "name": "zero-light",
+    "variables":
+    {
+        "white": "#FFFFFE",
+        "light": "#FAFAF9",
+        "medium": "#343434",
+        "dark": "#404040",
+        "black": "#000000",
+
+        "normal": "#666666",
+        "dimmed": "color(var(medium) alpha(0.3))",
+
+        "b": "#00A2DC",
+        "bb": "#0093BF",
+        "g": "#5DBA83",
+        "gg": "#0EAD7A",
+        "y": "#F3B915",
+        "yy": "#EF9D15",
+        "r": "#E1511E",
+        "rr": "#DC3422",
+        "rose": "#FF0180",
+
+        "R": "#CC6666",
+        "O": "#DE935F",
+        "Y": "#F0C674",
+        "G": "#B5BD68",
+        "C": "#8ABEB7",
+        "B": "#81A2BE",
+        "P": "#B294BB",
+    },
+    "globals":
+    {
+        "background": "var(light)",
+        "foreground": "var(normal)",
+        "caret": "var(y)",
+        "line_highlight": "var(white)",
+        "gutter_foreground": "var(dimmed)",
+        "selection": "var(y)",
+        "selection_foreground": "var(dark)",
+        "selection_border": "var(y)",
+        "selection_border_width": "1",
+        "selection_corner_style": "square",
+        "highlight": "var(y)",
+        "find_highlight": "var(y)",
+        "accent": "var(rose)",
+        "brackets_options": "foreground",
+        "brackets_foreground": "var(rose)",
+        "bracket_contents_options": "foreground",
+        "bracket_contents_foreground": "var(rose)",
+        "tags_options": "foreground",
+        "tags_foreground": "var(y)"
+    },
+    "rules":
+    [
+        {
+            "name": "pragma",
+            "scope":"pragma",
+            "foreground": "var(normal)",
+        },
+        {
+            "name": "comment",
+            "scope":"comment",
+            "foreground": "var(dimmed)"
+        },
+        {
+            "name": "punctuation",
+            "scope":"punctuation",
+            "foreground": "var(dimmed)"
+        },
+        {
+            "name": "punctuation",
+            "scope":"meta.declaration",
+            "foreground": "var(dimmed)",
+        },
+        {
+            "name": "punctuation",
+            "scope":"keyword.other.double-colon",
+            "foreground": "color(var(normal) alpha(0.7))",
+        },
+        {
+            "name": "punctuation",
+            "scope":"keyword.operator.arrow",
+            "foreground": "color(var(normal) alpha(0.7))",
+        },
+        {
+            "name": "punctuation",
+            "scope":"keyword.operator.big-arrow",
+            "foreground": "color(var(normal) alpha(0.7))",
+        },
+        {
+            "name": "punctuation",
+            "scope":"entity.name.function",
+            "foreground": "var(normal)",
+        },
+        {
+            "name": "punctuation",
+            "scope":"punctuation.infix-call.haskell",
+            "foreground": "var(normal)"
+        },
+        {
+            "name": "punctuation",
+            "scope":"punctuation.list",
+            "foreground": "var(normal)"
+        },
+        {
+            "name": "haskell keyword",
+            "scope":"keyword.other.haskell",
+            "foreground": "color(var(normal) alpha(0.7))",
+        },
+        {
+            "name": "keyword",
+            "scope":"keyword",
+            "foreground": "color(var(normal) alpha(0.7))",
+        },
+        {
+            "name": "haskell variable generic",
+            "scope":"variable.generic.haskell",
+            "foreground": "r",
+        },
+        {
+            "name": "haskell class",
+            "scope":"entity.name.type",
+            "foreground": "var(normal)",
+        },
+        {
+            "name": "haskell class",
+            "scope":"entity.name.class.haskell",
+            "foreground": "var(b)",
+        },
+        {
+            "name": "haskell data",
+            "scope":"entity.name.data.haskell",
+            "foreground": "var(r)",
+        },
+        {
+            "name": "type constructor",
+            "scope":"declaration",
+            "foreground": "var(b)",
+        },
+        {
+            "name": "type constructor",
+            "scope":"entity.name.class",
+            "foreground": "var(b)",
+        },
+        {
+            "name": "type constructor",
+            "scope":"support.type",
+            "foreground": "var(b)",
+        },
+        {
+            "name": "type variable",
+            "scope":"variable.generic",
+            "foreground": "var(b)",
+        },
+        {
+            "name": "class",
+            "scope":"support.class",
+            "foreground": "var(normal)",
+        },
+        {
+            "name": "data constructor",
+            "scope":"entity.name.constructor",
+            "foreground": "var(normal)",
+        },
+        {
+            "name": "constant",
+            "scope":"constant",
+            "foreground": "var(g)"
+        },
+        {
+            "name": "string",
+            "scope":"string",
+            "foreground": "var(g)"
+        },
+        {
+            "name": "string",
+            "scope":"string",
+            "foreground": "var(g)"
+        },
+        {
+            "name": "native constant",
+            "scope":"constant.language",
+            "foreground": "var(rose)"
+        }
+
+    ]
+}
