@@ -21,8 +21,8 @@ The easiest way to install is by using [Sublime Package Control](https://sublime
 
 ***
 
+### zero-dark family
+
 Explore the [zero-dark family](https://github.com/jrvieira/zero-dark) of designed minimal interfaces for effective communication:
 
 ![screenshot](https://github.com/jrvieira/zero-dark/blob/master/textual.png)
-
-***
