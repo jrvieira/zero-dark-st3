@@ -19,14 +19,6 @@ The easiest way to install is by using [Sublime Package Control](https://sublime
 2. Choose `Package Control: Install Package`
 3. Find `zero-dark` and hit <kbd>Enter</kbd>
 
-#### Manual
-
-You can alternatively install it manually:
-
-1. Place the `zero-dark` folder inside the `Packages` directory which you can find using the menu item `Sublime Text -> Preferences -> Browse Packages...`
-
-2. Activate by navigating to `Sublime Text -> Preferences -> Color Scheme -> User -> zero-dark`
-
 ***
 
 Explore the [zero-dark family](https://github.com/jrvieira/zero-dark) of designed minimal interfaces for effective communication:
@@ -34,17 +26,3 @@ Explore the [zero-dark family](https://github.com/jrvieira/zero-dark) of designe
 ![screenshot](https://github.com/jrvieira/zero-dark/blob/master/textual.png)
 
 ***
-
-# All supported apps
-
-- SublimeText
-- Atom
-- Textual
-- LimeChat
-- irssi
-- Macos Terminal
-- iTerm
-- X
-- i3
-- Rofi
-
