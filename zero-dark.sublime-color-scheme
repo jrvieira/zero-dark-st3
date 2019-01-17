@@ -1,15 +1,9 @@
 {
-    "name": "zero-light",
+    "name": "zero-dark",
     "variables":
     {
         "white": "#FFFFFE",
-        "light": "#FAFAF9",
-        "medium": "#343434",
-        "dark": "#404040",
         "black": "#000000",
-
-        "normal": "#666666",
-        "dimmed": "color(var(medium) alpha(0.3))",
 
         "b": "#00A2DC",
         "bb": "#0093BF",
@@ -28,28 +22,38 @@
         "C": "#8ABEB7",
         "B": "#81A2BE",
         "P": "#B294BB",
+
+        "base": "#262626",
+        "normal": "#c6bb9b",
+        "light": "#fff",
+        "dark": "color(#000 alpha(0.1))",
+        "dimmed": "color(var(normal) alpha(0.2))",
+        "note": "#83a598",
+        "special": "#83a598",
+        "natural":"#98cd97"
+
     },
     "globals":
     {
-        "background": "var(light)",
+        "background": "var(base)",
         "foreground": "var(normal)",
-        "caret": "var(y)",
-        "line_highlight": "var(white)",
+        "caret": "var(special)",
+        "line_highlight": "var(dark)",
         "gutter_foreground": "var(dimmed)",
-        "selection": "var(y)",
-        "selection_foreground": "var(dark)",
-        "selection_border": "var(y)",
+        "selection": "var(special)",
+        "selection_foreground": "var(base)",
+        "selection_border": "var(special)",
         "selection_border_width": "1",
         "selection_corner_style": "square",
-        "highlight": "var(y)",
-        "find_highlight": "var(y)",
-        "accent": "var(rose)",
+        "highlight": "var(note)",
+        "find_highlight": "var(note)",
+        "accent": "var(special)",
         "brackets_options": "foreground",
-        "brackets_foreground": "var(rose)",
+        "brackets_foreground": "var(special)",
         "bracket_contents_options": "foreground",
-        "bracket_contents_foreground": "var(rose)",
+        "bracket_contents_foreground": "var(special)",
         "tags_options": "foreground",
-        "tags_foreground": "var(y)"
+        "tags_foreground": "var(note)"
     },
     "rules":
     [
@@ -76,17 +80,17 @@
         {
             "name": "punctuation",
             "scope":"keyword.other.double-colon",
-            "foreground": "color(var(normal) alpha(0.7))",
+            "foreground": "color(var(normal) alpha(0.6))",
         },
         {
             "name": "punctuation",
             "scope":"keyword.operator.arrow",
-            "foreground": "color(var(normal) alpha(0.7))",
+            "foreground": "color(var(normal) alpha(0.6))",
         },
         {
             "name": "punctuation",
             "scope":"keyword.operator.big-arrow",
-            "foreground": "color(var(normal) alpha(0.7))",
+            "foreground": "color(var(normal) alpha(0.6))",
         },
         {
             "name": "punctuation",
@@ -106,17 +110,17 @@
         {
             "name": "haskell keyword",
             "scope":"keyword.other.haskell",
-            "foreground": "color(var(normal) alpha(0.7))",
+            "foreground": "color(var(normal) alpha(0.6))",
         },
         {
             "name": "keyword",
             "scope":"keyword",
-            "foreground": "color(var(normal) alpha(0.7))",
+            "foreground": "color(var(normal) alpha(0.6))",
         },
         {
             "name": "haskell variable generic",
             "scope":"variable.generic.haskell",
-            "foreground": "var(r)",
+            "foreground": "var(note)",
         },
         {
             "name": "haskell class",
@@ -126,32 +130,32 @@
         {
             "name": "haskell class",
             "scope":"entity.name.class.haskell",
-            "foreground": "var(b)",
+            "foreground": "var(note)",
         },
         {
             "name": "haskell data",
             "scope":"entity.name.data.haskell",
-            "foreground": "var(r)",
+            "foreground": "var(Y)",
         },
         {
             "name": "type constructor",
             "scope":"declaration",
-            "foreground": "var(b)",
+            "foreground": "var(note)",
         },
         {
             "name": "type constructor",
             "scope":"entity.name.class",
-            "foreground": "var(b)",
+            "foreground": "var(note)",
         },
         {
             "name": "type constructor",
             "scope":"support.type",
-            "foreground": "var(b)",
+            "foreground": "var(note)",
         },
         {
             "name": "type variable",
             "scope":"variable.generic",
-            "foreground": "var(b)",
+            "foreground": "var(note)",
         },
         {
             "name": "class",
@@ -166,22 +170,22 @@
         {
             "name": "constant",
             "scope":"constant",
-            "foreground": "var(g)"
+            "foreground": "var(O)"
         },
         {
             "name": "string",
             "scope":"string",
-            "foreground": "var(g)"
+            "foreground": "var(natural)"
         },
         {
-            "name": "string",
-            "scope":"string",
-            "foreground": "var(g)"
+            "name": "number",
+            "scope":"constant.numeric.haskell",
+            "foreground": "var(natural)"
         },
         {
             "name": "native constant",
             "scope":"constant.language",
-            "foreground": "var(rose)"
+            "foreground": "var(special)"
         }
 
     ]
