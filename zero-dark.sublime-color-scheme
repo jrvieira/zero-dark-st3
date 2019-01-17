@@ -28,7 +28,7 @@
         "light": "#fff",
         "dark": "color(#000 alpha(0.1))",
         "dimmed": "color(var(normal) alpha(0.2))",
-        "note": "#83a598",
+        "note": "#8ABEB7",
         "special": "#83a598",
         "natural":"#98cd97"
 
@@ -49,9 +49,9 @@
         "find_highlight": "var(note)",
         "accent": "var(special)",
         "brackets_options": "foreground",
-        "brackets_foreground": "var(special)",
+        "brackets_foreground": "var(note)",
         "bracket_contents_options": "foreground",
-        "bracket_contents_foreground": "var(special)",
+        "bracket_contents_foreground": "var(note)",
         "tags_options": "foreground",
         "tags_foreground": "var(note)"
     },
