@@ -50,7 +50,7 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [45, 45, 45] // 00
+        "layer0.tint": [35, 35, 35] // 00
     },
 
 //
@@ -284,7 +284,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         // "layer0.texture": "",
-        "layer0.tint": [45, 45, 45], // 00
+        "layer0.tint": [35, 35, 35], // 00
         "layer0.inner_margin": [0,5],
         "layer0.opacity": 0,
         "blur": false
@@ -341,7 +341,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [45, 45, 45],
+        "layer0.tint": [35, 35, 35],
         "layer0.opacity": 1
     },
 
